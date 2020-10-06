@@ -5,11 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-/*.container{
-    max-width: 1094px;
-    margin: auto;
-    padding-top: 30px;
-}*/
 .container{
     width: 90%;
     margin: auto;
@@ -18,30 +13,7 @@
 header{
     background-color: #24282f;
 }
-/*header nav ul li{
-    list-style: none;
-    display: inline-block;
-    text-transform: uppercase;
-    margin-left: 50px;
-}
-header nav ul li a{
-    color: #fff;
-    font-size: 11px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
 
-header nav ul li:after{
-    content: "";
-    margin-top: 33px;
-    border-bottom: 2px solid #b5a263;
-    width: 0;
-    display: block;
-}
-header nav ul li:hover:after{
-    width: 100%;
-}
- */
 header .container{
     display: flex;
     justify-content: space-between;
@@ -152,7 +124,7 @@ section .main h2:after{
 }
 .reviews{
     background-color: #f7f7f7;
-    padding-bottom: 93px;
+   /* padding-bottom: 93px;*/
 }
 .reviews .container{
     max-width: 683px;
@@ -278,6 +250,7 @@ footer .last p{
     background-color: #b5a263;
     color: #fff;
 }
+/*---------------------------------------------carousel-------------------------------------*/
 .owl-nav .owl-prev:before {
     content: "\f104";
     width: 20px;
@@ -433,14 +406,14 @@ nav .nav-links .link:hover {
     padding: 10px;
     display: flex;
 }
-a{
+nav a{
     margin: 0 20px;
     color: #fff;
     font-size: 2rem;
     transition: all 400ms ease;
 }
 
-a:hover{
+nav a:hover{
     color: #222;
 }
 /*----------------------------------------------------------------navbar--end-------------------------*/

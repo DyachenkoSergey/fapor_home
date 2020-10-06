@@ -15,7 +15,7 @@ menuBtn.addEventListener('click', () => {
 
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -33,4 +33,4 @@ menuBtn.addEventListener('click', () => {
             }
         }
     });
-});*/
+});
