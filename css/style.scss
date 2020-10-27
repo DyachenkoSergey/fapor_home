@@ -6,7 +6,7 @@
 $color_white: #fff;
 $color_black: #000;
 $color_header: #24282f;
-$color_footer: #24282f;
+$color_bottom: #2b2f35;
 
 
 header{
@@ -45,16 +45,78 @@ header{
   .under_the_photo{
     width: 250px;
     .fab{
-      color: $color_white;
       background-color: #dedede;
       font-size: 20px;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      overflow: hidden;
-      text-align: center;
-      padding-top: 5px;
+      width: 30px;
+      height: 30px;
+      &:hover{
+        background-color: #b5a263;
+      }
     }
   }
 
+}
+.reviews {
+  background-color: #f7f7f7;
+  .what{
+    &:after {
+      content: "";
+      padding: 23px 0 40px;
+      border-bottom: 3px solid #24282f;
+      width: 61px;
+      display: block;
+      margin: auto;
+    }
+  }
+  .index_img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .owl-carousel{
+    .owl-nav .owl-prev:before {
+      content: "\f104";
+      width: 20px;
+      height: 20px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 80px;
+      font-weight: 900!important;
+      font-family: "Font Awesome 5 Free"!important;
+    }
+    .owl-nav .owl-next:before{
+      content: "\f105";
+      font-weight: 900!important;
+      font-family: "Font Awesome 5 Free"!important;
+      width: 20px;
+      height: 20px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 80px;
+    }
+  }
+}
+.bottom{
+  background-color: $color_bottom;
+}
+.bottom,footer p{
+  color: #6e7279;
+  font-size: 11px;
+  line-height: 19px;
+}
+footer{
+  background-color: $color_header;
+  border-top: 2px solid #6e7279;
+  .fab{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #6e7279;
+    font-size: 20px;
+    &:hover{
+      background-color: #b5a263;
+    }
+  }
 }
