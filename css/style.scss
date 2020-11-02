@@ -8,6 +8,11 @@ $color_black: #000;
 $color_header: #24282f;
 $color_bottom: #2b2f35;
 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 header{
   background-color: $color_header;
@@ -29,9 +34,16 @@ header{
   background-repeat: no-repeat;
 }
 .managerment{
-  .main{
-    h2{
-      border-bottom: 2px solid #b5a263;
+  .container{
+    .row{
+      @include max-screen(320px){
+        padding: 15px!important;
+      }
+      .main{
+        h2{
+          border-bottom: 2px solid #b5a263;
+        }
+      }
     }
   }
   .manager_photo{
