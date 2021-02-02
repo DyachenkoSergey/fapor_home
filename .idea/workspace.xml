@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce2f3ddc-7f73-4507-845c-5f53c1c17c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-small" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,7 +53,7 @@
       <recent name="C:\Users\38063\Desktop\fapor_home\css" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,7 +86,12 @@
       <workItem from="1603558713047" duration="5354000" />
       <workItem from="1603741294853" duration="10000" />
       <workItem from="1603784998010" duration="4843000" />
-      <workItem from="1604302222955" duration="267000" />
+      <workItem from="1604302222955" duration="478000" />
+      <workItem from="1604432397679" duration="10000" />
+      <workItem from="1604432523217" duration="85000" />
+      <workItem from="1604433099803" duration="30000" />
+      <workItem from="1612172018701" duration="53000" />
+      <workItem from="1612253980119" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="+carousel+navbar">
       <created>1601962406711</created>
@@ -112,11 +114,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603796814083</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="padding photo">
+      <created>1604302661483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604302661484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -124,28 +133,7 @@
     <MESSAGE value="+carousel+navbar" />
     <MESSAGE value="transition for bootstrap4" />
     <MESSAGE value="bootstrap4" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap4" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603452630483">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603452630483" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1603796811055">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603796811055" />
-    <state x="405" y="191" key="EditFileWatcherDialog" timestamp="1603452450691">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="405" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1603452450691" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603797017407">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603797017407" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603796821105">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603796821105" />
+    <MESSAGE value="padding photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="padding photo" />
   </component>
 </project>
